@@ -46,7 +46,7 @@ You can either run the hosted conformance tests listed in the FINOS App Director
 
 If you have a Desktop Agent supporting the [AppD v2 standard](https://fdc3.finos.org/docs/app-directory/spec), you can point it at [The FINOS App Directory](https://directory.fdc3.finos.org) which contains not only the current conformance suite but also many other sample FDC3 applications.  The endpoint for your agent is:
 
- - https://directory.fdc3.finos.org/v2/apps
+ - [https://directory.fdc3.finos.org/conformanec_2_0/v2/apps](https://directory.fdc3.finos.org/conformance_2_0/v2/apps/)
 
 #### Local Installation
 

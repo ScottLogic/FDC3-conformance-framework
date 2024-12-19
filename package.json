@@ -15,7 +15,7 @@
     "build-static": "npm run compile && npm run copy"
   },
   "dependencies": {
-    "@kite9/client": "0.0.30",
+    "@kite9/fdc3-get-agent": "file:../../FDC3/packages/fdc3-get-agent",
     "buffer": "^6.0.3",
     "chai": "^4.3.6",
     "fdc3_1_2": "npm:@finos/fdc3@^1.2.0",

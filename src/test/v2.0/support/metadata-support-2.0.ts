@@ -41,25 +41,25 @@ export class MetadataFdc3Api {
     if (contextType) {
       return await fdc3.open(
         {
-          appId: "MetadataAppId",
+          appId: "MetadataAppId@localhost",
         },
         { type: contextType }
       );
     } else {
       return await fdc3.open({
-        appId: "MetadataAppId",
+        appId: "MetadataAppId@localhost",
       });
     }
   }
 
   async getAppInstances(): Promise<AppIdentifier[]> {
-    return await fdc3.findInstances({ appId: "MetadataAppId" });
+    return await fdc3.findInstances({ appId: "MetadataAppId@localhost" });
   }
 
   async getAppMetadata(appIdentifier?: AppIdentifier): Promise<AppMetadata> {
     if (!appIdentifier) {
       appIdentifier = {
-        appId: "MetadataAppId",
+        appId: "MetadataAppId@localhost",
       };
     }
 

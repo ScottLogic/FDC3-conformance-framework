@@ -11,7 +11,7 @@ export enum Intent {
 }
 
 export enum IntentApp {
-  IntentAppA = "IntentAppA",
-  IntentAppB = "IntentAppB",
-  IntentAppC = "IntentAppC",
+  IntentAppA = "IntentAppA@localhost",
+  IntentAppB = "IntentAppB@localhost",
+  IntentAppC = "IntentAppC@localhost",
 }

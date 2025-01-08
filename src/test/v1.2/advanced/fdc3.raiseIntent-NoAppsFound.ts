@@ -34,7 +34,7 @@ export default () =>
           {
             type: ContextType.testContextY,
           },
-          { name: IntentApp.IntentAppA, appId: "IntentAppAId" }
+          { name: IntentApp.IntentAppA, appId: "IntentAppAId@localhost" }
         );
         assert.fail("Error was not thrown");
       } catch (ex) {

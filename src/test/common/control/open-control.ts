@@ -18,25 +18,25 @@ export interface OpenControl<X> {
 export const openApp = {
   a: {
     name: "IntentAppA",
-    id: "IntentAppAId",
+    id: "IntentAppAId@localhost",
   },
   b: {
     name: "MockApp",
-    id: "MockAppId",
+    id: "MockAppId@localhost",
   },
   c: {
     name: "IntentAppC",
-    id: "IntentAppCId",
+    id: "IntentAppCId@localhost",
   },
   d: {
-    id: "OpenAppAId",
+    id: "OpenAppAId@localhost",
   },
   e: {
-    id: "OpenAppBId",
+    id: "OpenAppBId@localhost",
   },
   f: {
     name: "IntentAppB",
-    id: "IntentAppBId",
+    id: "IntentAppBId@localhost",
   },
 };
 

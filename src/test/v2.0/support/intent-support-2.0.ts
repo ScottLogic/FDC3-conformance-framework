@@ -205,18 +205,18 @@ export enum IntentResultType {
 }
 
 export enum IntentApp {
-  IntentAppA = "IntentAppAId",
-  IntentAppB = "IntentAppBId",
-  IntentAppC = "IntentAppCId",
-  IntentAppD = "IntentAppDId",
-  IntentAppE = "IntentAppEId",
-  IntentAppF = "IntentAppFId",
-  IntentAppG = "IntentAppGId",
-  IntentAppH = "IntentAppHId",
-  IntentAppI = "IntentAppIId",
-  IntentAppJ = "IntentAppJId",
-  IntentAppK = "IntentAppKId",
-  IntentAppL = "IntentAppLId",
+  IntentAppA = "IntentAppAId@localhost",
+  IntentAppB = "IntentAppBId@localhost",
+  IntentAppC = "IntentAppCId@localhost",
+  IntentAppD = "IntentAppDId@localhost",
+  IntentAppE = "IntentAppEId@localhost",
+  IntentAppF = "IntentAppFId@localhost",
+  IntentAppG = "IntentAppGId@localhost",
+  IntentAppH = "IntentAppHId@localhost",
+  IntentAppI = "IntentAppIId@localhost",
+  IntentAppJ = "IntentAppJId@localhost",
+  IntentAppK = "IntentAppKId@localhost",
+  IntentAppL = "IntentAppLId@localhost",
 }
 
 export enum ContextType {

@@ -70,7 +70,7 @@ export class ChannelControl2_0 implements ChannelControl<Channel, Context, Liste
     }
 
     //Open ChannelsApp then execute commands in order
-    await fdc3.open({ appId: "ChannelsAppId" }, buildChannelsAppContext(commands, channelsAppConfig));
+    await fdc3.open({ appId: "ChannelsAppId@localhost" }, buildChannelsAppContext(commands, channelsAppConfig));
   };
 
   async closeMockApp(testId: string) {

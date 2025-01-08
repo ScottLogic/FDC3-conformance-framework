@@ -16,7 +16,7 @@ onFdc3Ready().then(async () => {
     type: "fdc3-conformance-opened",
   };
 
-  if (appId !== "MockAppId") {
+  if (appId !== "MockAppId@localhost") {
     appOpenedContext.errorMessage = `Incorrect appId retrieved from getInfo(). Expected MockAppId, got ${appId}`;
   }
 

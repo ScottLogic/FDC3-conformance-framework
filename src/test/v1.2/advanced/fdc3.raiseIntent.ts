@@ -67,7 +67,7 @@ export default () =>
         {
           type: ContextType.testContextX,
         },
-        { name: IntentApp.IntentAppA, appId: "IntentAppAId" }
+        { name: IntentApp.IntentAppA, appId: "IntentAppAId@localhost" }
       );
       validateIntentResolution(IntentApp.IntentAppA, intentResolution);
       await result;
